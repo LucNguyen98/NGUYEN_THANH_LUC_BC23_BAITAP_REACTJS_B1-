@@ -1,15 +1,20 @@
 import React, { Component } from 'react'
-
 export default class Item extends Component {
     render() {
         return (
-            <div className="col-3 mb-5">
-                <div className="card">
-                    <img src="https://via.placeholder.com/150" className="card-img-top" alt="..." />
-                    <div className="card-body text-center">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-primary">Find Out More!</a>
+            <div class="col-lg-6 col-xxl-4 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4" style={{
+                            display: ' inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            height: '4rem',
+                            width: '4rem',
+                            fontSize: '2rem',
+                        }}><i class="bi bi-collection"></i></div>
+                        <h2 class="fs-4 fw-bold">Fresh new layout</h2>
+                        <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
                     </div>
                 </div>
             </div>
